@@ -13,17 +13,17 @@ This repository contains a Telegram bot for conducting quizzes with multiple-cho
 * MongoDB integration for user quiz data storage
 
   **Installation**
-  1- Clone the repository:
+  - Clone the repository:
       git clone https://github.com/your-username/telegram-quiz-bot.git
-  2- Install the dependencies:
+  - Install the dependencies:
       cd telegram-quiz-bot
       npm install
-  3- Set up the required environment variables:
+  - Set up the required environment variables:
   * Create a .env file in the project root directory.
   * Add the following environment variables to the file:
         MONGODB_URI=your-mongodb-uri
         TELEGRAM_BOT_TOKEN=your-telegram-bot-token
-  4- Start the application:
+  - Start the application:
       npm start
     
 **Usage**
