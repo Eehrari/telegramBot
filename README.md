@@ -12,7 +12,7 @@ This repository contains a Telegram bot for conducting quizzes with multiple-cho
 * Admin authorization for managing quizzes
 * MongoDB integration for user quiz data storage
 
-  **Installation**
+**Installation**
   1. Clone the repository:
       * git clone https://github.com/your-username/telegram-quiz-bot.git
   2. Install the dependencies:
