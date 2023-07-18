@@ -80,9 +80,11 @@ The application supports setting up a webhook to receive updates from the Telegr
 3. Set the webhook URL by replacing <complete-herokuapp-link> in the following line of code:
 
 ```bot.telegram.setWebhook(`Your complete herokuapp link/${webhookPath}`);```
+
 with your complete Heroku app link and webhook path.
-4. Make sure your deployed application is accessible over HTTPS, as Telegram requires a secure connection for webhooks.
-5. Restart your application for the webhook configuration to take effect.
+
+1. Make sure your deployed application is accessible over HTTPS, as Telegram requires a secure connection for webhooks.
+2. Restart your application for the webhook configuration to take effect.
 
 Once the webhook is set up, your deployed application will start receiving updates from the Telegram API, and the bot will respond accordingly.
 
