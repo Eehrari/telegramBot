@@ -2,15 +2,23 @@
 This GitHub repository contains a Telegram bot for conducting quizzes.  
 
 This repository contains a Telegram bot for conducting quizzes with multiple-choice questions. The bot allows users to participate in quizzes, provides instant feedback on their answers, and calculates their scores. It is built using Node.js and utilizes the Telegraf framework for interacting with the Telegram Bot API.
+<h2>Table of Contents</h2>
 
-**Features**
-* Conduct quizzes with multiple-choice questions
-* Instant feedback on user answers
-* Calculate and display user scores
-* Timer functionality for time-limited quizzes
-* Support for adding new quiz questions dynamically
-* Admin authorization for managing quizzes
-* MongoDB integration for user quiz data storage
+**Prerequisites**
+**Installation**
+**Environment Setup**
+**Running the Application**
+**Bot Usage**
+**Quiz Management**
+**Webhook Setup**
+
+
+**Prerequisites**
+ Before proceeding with the installation and setup, make sure you have the following requirements met:
+
+ * Node.js (version 12 or above) and npm installed on your machine
+ * Access to a MongoDB instance and its connection URI
+ * A Telegram Bot Token for interacting with the Telegram API
 
 **Installation**
   1. Clone the repository:
@@ -25,7 +33,16 @@ This repository contains a Telegram bot for conducting quizzes with multiple-cho
         - TELEGRAM_BOT_TOKEN=your-telegram-bot-token
   4. Start the application:
       * npm start
-    
+
+**Environment Setup**
+1. Create a .env file in the root directory of the project.
+2. Add the following lines to the .env file:
+   ```MONGODB_URI=<Your MongoDB URI>
+    PORT=<Application Port>
+    BOT_URI=<Your Telegram Bot Token>
+    ```
+Replace <Your MongoDB URI> with the connection URI of your MongoDB instance, <Application Port> with the desired port number for running the application (default is 3000), and <Your Telegram Bot Token> with the token obtained for your Telegram bot.
+   
 **Usage**
   1. Start the bot by sending the /start command in your Telegram chat.
   2. Follow the instructions provided by the bot to participate in the quiz.
