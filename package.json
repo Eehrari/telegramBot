@@ -1,0 +1,21 @@
+{
+  "name": "bot-project",
+  "version": "1.0.0",
+  "description": "It's a bot-project for my quiz bot telegram group",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4",
+    "pdfkit": "^0.13.0",
+    "telegraf": "^4.12.2"
+  }
+}
