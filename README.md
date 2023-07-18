@@ -4,13 +4,13 @@ This GitHub repository contains a Telegram bot for conducting quizzes.
 This repository contains a Telegram bot for conducting quizzes with multiple-choice questions. The bot allows users to participate in quizzes, provides instant feedback on their answers, and calculates their scores. It is built using Node.js and utilizes the Telegraf framework for interacting with the Telegram Bot API.
 <h2>Table of Contents</h2>
 
-*Prerequisites*
-*Installation*
-*Environment Setup*
-*Running the Application*
-*Bot Usage*
-*Quiz Management*
-*Webhook Setup*
+* Prerequisites*
+* Installation*
+* Environment Setup*
+* Running the Application*
+* Bot Usage*
+* Quiz Management*
+* Webhook Setup*
 
 
 **Prerequisites**
